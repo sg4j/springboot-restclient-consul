@@ -1,0 +1,5 @@
+petclinic-ignite:
+  ribbon:
+    consul:
+      enabled: true
+    ServerListRefreshInterval: 10000

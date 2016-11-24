@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: petclinic-restclient-consul
+  cloud:
+    inetutils:
+        ignoredInterfaces:
+          - docker0
+          - eth0
+          - lo
+          - Wireless*
+    consul:
+      discovery:
+        prefer-ip-address: true
+      host: 177.47.7.10
+      port: 8500  
